@@ -1,0 +1,119 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ul{
+    width:100%;
+    position:fixed;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    background-color: black;
+    
+    
+}
+li{
+    float:right;
+}
+li a{
+    display: block;
+    padding: 20px 30px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover
+{
+  color:yellow ;
+}
+.teena{
+    width:140px;
+    height:90px;
+    border-radius: 90%;
+    float:left;
+    
+}
+.coffebg{
+    
+    width:100%;
+    height:95%;
+    
+
+}
+#section{
+   
+    width:100%;
+    height:550px;
+    
+}
+
+.txt
+  {
+line-height: 30px;
+width:38%;
+height:300px;
+transform:translate(160%, -130%);  
+font-size:0.5cm;
+text-align:left;
+color:rgb(246, 246, 239);
+  
+  }
+ .button {
+    background-color: rgb(16, 14, 14);
+    color: yellow;
+    border: 2px solid #efdf29;
+    padding:15px 32px;
+    text-align: center;
+    font-size:16px ;
+    margin:4px 2px;
+    
+}
+.service{
+    font-size: 0.5cm;
+ text-align: center;
+
+
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding:20px;
+  text-align: center;
+  font-size:0.7cm; }
+  
+  #row::after {
+    display:flex;
+    
+  }
+  #row img{
+    border-radius:50%;
+  }
+  #coffee{
+    height:30%;
+    width:50%;
+    border: 1px solid green;
+  }
+  #Breakf{
+    height:50%;
+    width:85%;
+  }
+
+  .tbean{
+    padding-top: 3cm;
+    padding-left: 3cm;
+    max-width:700px;
+    margin: auto;
+    float:left;
+    
+  }
+   .tbeancontent{ 
+   
+    padding-top: 3cm;
+    max-width:1500px;
+    margin: auto;
+    text-align: center;
+     font-size:0.75cm; 
+  } 
