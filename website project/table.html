@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="tform.html">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      document.getElementById("submit").onclick = function () {
+        document.getElementById("table").style.display = "block";
+      
+        var table = document.getElementById("table");
+        var row = table.insertRow(-1);
+        var date = row.insertCell(0);
+        var desc = row.insertCell(1);
+        var amt = row.insertCell(2);
+        date.innerHTML = document.getElementById("date").value;
+        desc.innerHTML = document.getElementById("desc").value;
+        amt.innerHTML = document.getElementById("amount").value;
+      
+        return false;
+      }
+      </script>
+    <title>Document</title>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+
+</style>
+</head>
+<body>
+     <button ><a href="E:\tableform.html">Create</a></button>
+
+<table style="width:100%">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Phone</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td</td>
+    <td></td>
+    <td></td>
+    <td><button>Edit</button>
+    <button>delete</button></td>
+  </tr> 
+</table>
+
+</body>
+</html>
+

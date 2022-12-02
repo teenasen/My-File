@@ -1,0 +1,14 @@
+<script>
+  
+    function generateOTP() {
+
+        var digits = '01234567898';
+        let OTP = '';
+        for (let i =0; i<4; i++ ) 
+        {
+            OTP += digits[Math.floor(Math.random() * 10)];
+        }
+        return OTP;
+    } 
+    document.write( generateOTP() );
+    </script>                
